@@ -6,8 +6,10 @@ public class SanDiego extends City{
 		super(population, growthRate);
 	}
 
-	@Override
+
 	double getAnnualTaxes() {
-		return 0;
+		double taxes = getPopulation() * getGrowthRate();
+		taxes+=1000000;
+		return taxes;
 	}
 }

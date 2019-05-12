@@ -1,5 +1,11 @@
 package _01_AnimalFarm;
 
-public class Cow {
+public class Cow extends Animal {
+
+
+	void makeNoise() {
+		System.out.println("Cow Goes MOO");
+		
+	}
 
 }
